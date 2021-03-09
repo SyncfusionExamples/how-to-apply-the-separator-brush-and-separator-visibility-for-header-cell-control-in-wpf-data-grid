@@ -1,11 +1,12 @@
 # How to apply the SeparatorBrush and SeparatorVisibility for HeaderCellControl in WPF DataGrid(SfDataGrid)?
 ## About the sample
-This example illustrates how to apply the SeparatorBrush and SeparatorVisibility for HeaderCellControl in WPF DataGrid.
 
-SfDataGrid doesn’t have any direct properties for change the SeparatorColor and SeparatorVisibility of column header. But you can achieve this by customizing the GridHeaderCellControl style.
+This example illustrates how to apply the SeparatorBrush and SeparatorVisibility for HeaderCellControl in [WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid).
+
+[WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid) doesn’t have any direct properties for change the SeparatorColor and SeparatorVisibility of column header. But you can achieve this by customizing the `GridHeaderCellControl` style.
 
 ## Change the Columns separator color
-You can change the column header separator color by change the GridSplitter background color in GridHeaderCellControl.
+You can change the column header separator color by change the GridSplitter background color in `GridHeaderCellControl`.
 
 ```XAML
 <syncfusion:BoolToVisiblityConverter x:Key="VisiblityConverter" />
@@ -216,7 +217,7 @@ You can change the column header separator color by change the GridSplitter back
 
 ```
 ## Change the Columns separator visibility
-You can change the column header separator visibility by change the BorderThickness property in GridHeaderCellControl.
+You can change the column header separator visibility by using the `BorderThickness` property in `GridHeaderCellControl`.
 
 ```XAML
 <Style x:Key="headerStyleSeparatorVisibility" TargetType="syncfusion:GridHeaderCellControl">
