@@ -239,5 +239,8 @@ You can change the column header separator visibility by using the `BorderThickn
 </syncfusion:SfDataGrid>
 
 ```
+
+KB article - [How to apply the SeparatorBrush and SeparatorVisibility for HeaderCellControl in WPF DataGrid(SfDataGrid)?](https://www.syncfusion.com/kb/11369/how-to-apply-the-separatorbrush-and-separatorvisibility-for-headercellcontrol-in-wpf)
+
 ## Requirements to run the demo
 Visual Studio 2015 and above versions
